@@ -1,0 +1,43 @@
+In html, 
+
+Created a element and root element(for rendering) in react
+        const heading = React.createElement("h1", {}, "Hello world from react") -> {} is used for giving attributes like id, class
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
+
+React.createElement("h1", {}, "Hello world from react")
+                        |
+                        Props, and attributes
+
+             |
+             React element is an js object
+
+root.render() -> takes react object and converts it into html element
+           
+We can also create nested element in react
+
+const parent = React.createElement("div", {id:"parent"},
+    React.createElement("div", {id:"child"},
+    React.createElement("h1", {id:"element"}, "Child element")))
+    root.render(parent);
+
+Dom of above nesting:
+div
+        div
+                h1      h1
+        div
+div
+
+For creating siblings, we can use array 
+const parent = React.createElement("div", {id:"parent"},
+    React.createElement("div", {id:"child"},
+    [React.createElement("h1", {id:"element"}, "Child element"),
+    React.createElement("h1", {id:"element2"}, "Child element 2")]
+    )
+    )
+    root.render(parent);
+
+
+To reduce this mess we use jsx
+
+reactElement - js object ->  has more priority, it replaces if there are any existing html elements in the root
