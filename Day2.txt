@@ -1,0 +1,91 @@
+npm init to initialize npm in our project
+npm -> standard repository for managing many packages not just node
+
+package.json -> configuration for our npm
+
+packages - dependency
+
+webpack bundler -> bundles our project for production ready
+
+create-react-app -> uses webpack bundler, and babel 
+
+
+//**
+npm install -D package  -->  Two types of dependencies our app can have, one is dev dependencies, and another is normal dependencies,
+    Dev dependencies: Generally required for development phase(when we are developing our project)
+    Normal dependencies: Used in production
+
+versions have : ^2.11.0
+either ^ this or this ~ 
+^(karret) -> used for automatic minor updating
+~(tildae) -> used for automatic major updation
+
+package.json -> configuration for our npm
+
+package.lock.json -> Used to track/lock the exact version of the packages
+
+Used to make the app work same in both dev and production
+
+
+Node modules -> Contains all the codes of the pacakge, which we fetch from npm
+
+Transitive dependencies --> packages have some dependencies, that dependencies have some dependencies
+
+Every project-package-dependency -> have its own package.json 
+
+.gitignore -> here we add the files, which are not be pushed for production/github like node_modules
+
+package.json and package.lock.json is imp files, we need to put them in github --> with them we can get the required node_modules
+
+To ignite our application -> npx parcel index.html
+
+--> It will start a server, create a dist folder, .parcel cache
+
+npm -> package manager -> installing, deleting
+npx -> executing a package 
+
+Here thereby we executed the parcel package.
+
+we can get react to our project using npm 
+cdn link is not preffered way to put react into our project, as it is a costly operation
+
+using npm we dont need to create a request, we put react in our nodemodules
+
+npm install react <- for installing react
+
+as we installed react, we removed cdn links from index.html
+so that we put 
+import React from 'react'
+
+in App.js, this React comes from react pacakge in node_modules
+
+
+Now we get this error, after npx parcel index.html
+@parcel/transformer-js: Browser scripts cannot have imports or exports.
+
+
+What we are doing is, we are injecting js in .html , there by .html cant understand the imports, as normal js dont have imports
+so we need to tell it is a module in html
+        <script type="module" src="./App.js"> </script>
+
+Hot-reloading -> It is also done by parcel
+
+/**
+Parcel -> Do extra-ordinary things
+Dev Build
+Local server
+Hot-reloading (Hot-Module Replacement)  -> because parcel uses "file watching Algorithm" (written by c++)
+Faster build -> Because of caching
+Image Optimization
+Minification of files
+Bundling the codes
+Compessing the fiels
+Consistent Hashing
+Code splitting
+Differential bundling -> that is the app can opens in any browsers, older versions support
+Error Handling
+Tree shaking - it removes unused code ***
+
+
+npx parcel build index.html -> for production build 
+It will do all parcel functionalities inside the dist folder

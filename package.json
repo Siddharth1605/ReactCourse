@@ -1,0 +1,30 @@
+{
+  "name": "reactcourse",
+  "version": "1.0.0",
+  "description": "React Project",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddharth1605/ReactCourse.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Siddharth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddharth1605/ReactCourse/issues"
+  },
+  "homepage": "https://github.com/Siddharth1605/ReactCourse#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
