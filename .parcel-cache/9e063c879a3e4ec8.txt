@@ -1,4 +1,4 @@
-6038
+6039
 119C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@swc\helpers\_\_initializer_define_property\package.json133489206474338882 0
 73C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\domhandler133489206463663207 1
 75C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\svgo\LICENSE133489206460492852 0
@@ -6,11 +6,20 @@
 85C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\nth-check\lib\parse.js133489206463663207 0
 83C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\globals\globals.json133489206462012187 0
 94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\regions\FI.js133489206475267549 0
-60C:\Users\Siddharth\Documents\Learning\ReactCourse\.gitignore133489224877749945 0
+60C:\Users\Siddharth\Documents\Learning\ReactCourse\.gitignore133491147863102825 0
 89C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\node-addon-api\except.gypi133489206461987140 0
 101C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\css-tree\cjs\syntax\scope\selector.cjs133489206471321408 0
 144C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\ClassSelector.js133489206466153712 0
 107C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\lmdb\dependencies\v8\v8-fast-api-calls-v16.h133489206471504215 0
+97C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\dom-serializer\lib\foreignNames.js133489206462095746 0
+94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\update-browserslist-db\index.js133489206462012187 0
+58C:\Users\Siddharth\Documents\Learning\ReactCourse\day3.txt133491154994621360 0
+120C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\lib\syntax\node\Parentheses.js133489206473487261 0
+76C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\scheduler\umd133489252056353748 1
+90C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\lmdb\src\ordered-binary.cpp133489206470838644 0
+108C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\node-gyp-build-optional-packages\node_modules133489206442061700 1
+85C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\supports-color\license133489206460492852 0
+79C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\base-x\README.md133489206462251948 0
 85C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\import-fresh\readme.md133489206462095746 0
 96C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\type-fest\source\stringified.d.ts133489206468284015 0
 86C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\is-fullwidth-code-point133489206462411007 1
@@ -41,7 +50,7 @@
 130C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md133489206463252326 0
 115C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\features\prefers-reduced-motion.js133489206478501654 0
 111C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\runtime-js\src\helpers\get-worker-url.js133489206466645406 0
-58C:\Users\Siddharth\Documents\Learning\ReactCourse\Day2.txt133489256409502455 0
+58C:\Users\Siddharth\Documents\Learning\ReactCourse\Day2.txt133489278352287223 0
 97C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\source-map-js\lib\binary-search.js133489206462728805 0
 121C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\generator133489206471504215 1
 54C:\Users\Siddharth\Documents\Learning\ReactCourse\dist133489253534433612 1
@@ -75,7 +84,7 @@
 96C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\semver\functions\compare-loose.js133489206464102152 0
 110C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.h133489206471504215 0
 107C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\runtime-js\lib\helpers\bundle-url.js133489206462995732 0
-62C:\Users\Siddharth\Documents\Learning\ReactCourse\package.json133489253525627881 0
+62C:\Users\Siddharth\Documents\Learning\ReactCourse\package.json133491151839884200 0
 97C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\core\src\public\Symbols.js133489206472204345 0
 81C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@swc\core\spack.js133489206462841303 0
 60C:\Users\Siddharth\Documents\Learning\ReactCourse\Styles.css133488270107730690 0
@@ -103,7 +112,7 @@
 122C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\cjs\syntax\node\UnicodeRange.cjs133489206471504215 0
 94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\regions\EC.js133489206474987233 0
 94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\.bin\update-browserslist-db.ps1133489206480820370 0
-68C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@lmdb133489252057218719 1
+68C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@lmdb133489253525562780 1
 106C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\htmlnano\lib\modules\removeOptionalTags.cjs133489206467338829 0
 74C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\safe-buffer133489206462503865 1
 106C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\features\web-bluetooth.js133489206480143066 0
@@ -112,7 +121,7 @@
 77C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\domelementtype133489206464254364 1
 104C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\features\flexbox-gap.js133489206475336081 0
 111C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@swc\helpers\cjs\_class_private_field_update.cjs133489206467643232 0
-80C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@msgpackr-extract133489252057218719 1
+80C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@msgpackr-extract133489253525562780 1
 70C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\yallist133489206462411007 1
 131C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\WhiteSpace.js133489206469163342 0
 97C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\electron-to-chromium\versions.json133489206465728101 0
@@ -199,11 +208,6 @@
 112C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\css-select\node_modules\entities\lib\esm\index.js133489206466645406 0
 74C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\ansi-styles133489206462503865 1
 86C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\mdn-data\css\units.json133489206467643232 0
-97C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\core\src\Transformation.js133489206472441312 0
-117C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\lib\syntax\scope\default.js133489206472336261 0
-89C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\svgo\plugins\cleanupIds.js133489206468678844 0
-114C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\lib\lexer\match-graph.js133489206472987353 0
-73C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\is-extglob133489206462012187 1
 104C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\source-map-js\lib\source-map-generator.js133489206464834622 0
 89C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@swc\helpers\cjs\index.cjs133489206470838644 0
 103C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\core\lib\public\PluginOptions.js133489206471653968 0
@@ -314,15 +318,15 @@
 89C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\domutils\lib\querying.d.ts133489206467255811 0
 94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\regions\AW.js133489206469083375 0
 83C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\escape-string-regexp133489206462012187 1
+94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\regions\PT.js133489206478596721 0
+120C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133489206470838644 0
+91C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\timsort\build\timsort.min.js133489206463843114 0
 106C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\features\link-icon-png.js133489206476836824 0
 90C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\events\lib\types.js133489206464642264 0
 92C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\namer-default\LICENSE133489206460654118 0
 95C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\htmlnano\lib\presets\ampSafe.cjs133489206461338068 0
 80C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\react-dom\LICENSE133489252056171481 0
 83C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\electron-to-chromium133489206466128849 1
-94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\regions\PT.js133489206478596721 0
-120C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133489206470838644 0
-91C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\timsort\build\timsort.min.js133489206463843114 0
 71C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\error-ex133489206461987140 1
 102C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@swc\helpers\_\_class_private_field_get133489206473487261 1
 94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\caniuse-lite\data\regions\FM.js133489206475336081 0
@@ -350,6 +354,11 @@
 101C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\type-fest\source\iterable-element.d.ts133489206466645406 0
 86C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\semver\functions\gte.js133489206465967866 0
 74C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\htmlparser2133489206465564369 1
+97C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\@parcel\core\src\Transformation.js133489206472441312 0
+117C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\lib\syntax\scope\default.js133489206472336261 0
+89C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\svgo\plugins\cleanupIds.js133489206468678844 0
+114C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\lib\lexer\match-graph.js133489206472987353 0
+73C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\is-extglob133489206462012187 1
 70C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\is-glob133489206461987140 1
 107C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\lmdb\node_modules\node-addon-api\except.gypi133489206462012187 0
 81C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\picomatch\index.js133489206461688816 0
@@ -764,14 +773,6 @@
 99C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\dom-serializer\lib\foreignNames.d.ts133489206465837825 0
 88C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\js-yaml\lib\type\merge.js133489206467153901 0
 96C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\update-browserslist-db\index.d.ts133489206463943206 0
-97C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\dom-serializer\lib\foreignNames.js133489206462095746 0
-94C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\update-browserslist-db\index.js133489206462012187 0
-120C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\node_modules\css-tree\lib\syntax\node\Parentheses.js133489206473487261 0
-76C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\scheduler\umd133489252056353748 1
-90C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\lmdb\src\ordered-binary.cpp133489206470838644 0
-108C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\node-gyp-build-optional-packages\node_modules133489206442061700 1
-85C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\supports-color\license133489206460492852 0
-79C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\base-x\README.md133489206462251948 0
 109C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\csso\cjs\restructure\2-initialMergeRuleset.cjs133489206461846070 0
 89C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\ordered-binary\.nyc_output133489206464346134 1
 93C:\Users\Siddharth\Documents\Learning\ReactCourse\node_modules\update-browserslist-db\LICENSE133489206460487297 0

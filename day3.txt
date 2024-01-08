@@ -1,0 +1,118 @@
+we can create script to build our production ready app, shortening npm commands, and so.
+In package.json
+"scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  }
+
+  Now we can do "npm run start" instead of npm parcel index.html,
+  we can also write "npm start" -> it will only work for start keyword, as it is reserved for npm 
+
+React element is an object, it is not a html element
+When we render this element on to dom, then it becomes html element
+
+we create react element using .createElement method, but it is hard to read, so we use JSX -> Javascript Xml 
+
+Jsx -> is not a part of react, both are different. We can write react without jsx also
+
+Jsx is not html, but not same as html in javscript
+
+React element is an object, while jsx is just a syntax
+
+                jsx
+const heading = <h1>hello</h1>
+
+js: js code should be understand by js-engine(it understands only ES6 ECMAScript ie: pure javascript) it wont understand jsx,
+
+therefore const heading = <h1>hello</h1>, before this code goes to browser, it is transpiled, then js-engine recievs the code which is accepted by browser
+                                                                            (JSX to JS) using babel by parcel
+    
+    babel - package installed by parcel in node_modules -> a javascript compiler
+
+    jsx code is transpiled(by babel) into React.createElement,this js object rendered out to browser dom as html element  
+
+Some old browser dont understand ES6, so babel converts ES6 into old version of js, babel is a js library, node pacakge
+
+While giving attributes to jsx, it should be camelCase
+
+if we write multiple lines of jsx , we need to wrap it using (), so babel can undertand it
+
+//React Components:
+    *In react, everything is a component, from a input box to a whole pacakge
+
+--> Class based components, Functional based components
+
+Class based components -> Uses js classes
+Functional based components -> Uses js functions                                               
+
+React functional components -> js functions which returns jsx elements/react element(as jsx is transpiled into react element)
+
+  //short-hand 
+  const fun = () => true //function returns true
+
+  const fn = () => {
+    return true;
+  }
+
+  const headingfun = () => <h1>Short-hand Function</h1>
+
+wkt we can render react element by a root react element, root.render(element)
+but we cant do it for react component, root.render(component) -> error, 
+thats why we use root.render(<component />) -> babel undestands this
+
+
+**// Component Composition: 
+we can also render one component inside another -> Component Composition (composing two components into one)
+
+in jsx inside {}, we can write any js code/expression inside it
+
+
+Functional component written by arrow functions(using const keyword) cannot be accessed before initilaization, wkt right? ,hoisting and 
+all other stuffs
+
+we can put elements into elements, elements nto components, and vice versa
+
+when we take input or data from api, and display it, or use it without sanitizing, CROSS-SITE SCRIPTING or JAVASCRIPT INJECTION will occur,
+JSX sanitizes it automaitcally
+
+As we can use js inside jsx, we can also do this, call a component as a function
+
+const fun = () => {
+  <h1>Helo</h1>
+}
+
+const funn = () => {
+  {fun()}
+}
+App.js 
+import React from 'react'
+
+export default function App() {
+  const HeadingComponent = () => {  //React functional component which returns jsx element/react element
+    return <h1>Siddharth</h1>
+  }
+
+  
+  //short-hand 
+  const fun = () => <h1>Hello</h1> //function returns true
+
+  const fn = () => {
+    return (<>
+    <HeadingComponent />
+    <h1>Siddharth</h1>
+    </>)
+  }
+
+  const headingfun = () => <h1>Short-hand Function</h1>
+ 
+  const heading = <h1>HELLO</h1>
+
+
+  console.log(typeof(<h1>HELLO</h1>))
+  return (
+    <div><fun /></div>
+  )
+}
+
+
