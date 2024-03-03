@@ -1,0 +1,58 @@
+Css:
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+here by we can put logo in one corner, and links in another corner
+ <div className='header'>
+        <div className='logo-container'>
+          <img src="https://img.freepik.com/premium-vector/online-food-app-icon-food-shop-location-logo-also-online-resturent-location-template_608547-155.jpg?w=2000" 
+          alt="Hello" className='logo'/>
+        </div>
+        
+        <div className='nav-items'>
+          <ul  >
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Cart</li>
+          </ul>
+        </div>
+      
+        </div>
+
+
+.food-card:hover{
+    cursor: pointer;
+}
+
+for cursor interaction
+
+
+React:
+
+Props -> Properties, things/datas we can pass from parent to child component
+  (passing an argument to a function)
+  props : a js object
+
+  Used for dynamic data passing
+
+  We can pass any number of props, react wraps them as objects, and pass them
+
+    we can destructure them in parameter section {} -> destructuring on the fly
+    This destructuring is javascript
+
+    const Foodcard = ({restaurant, cuisine, reviews, duration}) =>    //destructuring on fly 
+    {
+
+    }
+
+    similar to const {restaurant, cuisine, reviews, duration} = props // destructuring
+
+//**
+  config Driven UI  --> UI will change based on backend data apis
+  
+
+  Warning: Each child in a list should have a unique "key" prop.
+while looping give a key
